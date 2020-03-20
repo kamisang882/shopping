@@ -1,0 +1,72 @@
+@charset "UTF-8";
+.lis{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.lis table tr{
+	width: 1200px;
+	height: 80px;
+	
+}
+.lis .tr1{
+	font-size:20px; 
+	 color: #c81523;
+}
+.lis .tr2{
+	font-size: 15px;
+}
+.lis table td{
+	width: 180px;
+	padding-top: 10px;
+	border-bottom: 2px dotted red;
+}
+.pay{
+    width: 100px;
+    height: 50px;
+    background-color: #c81523;
+    color: white;
+}
+.del{
+    width: 100px;
+    height: 50px;
+    background-color: #ccc;
+    color: black;
+}
+
+.mask{
+  	display: none;
+    position: absolute;
+    width:180px;
+    height:80px;
+    background: rgba(0, 0, 0, 0.4);
+}
+   /**当鼠标经过盒子让遮罩层显示*/
+.tudou:hover .mask{
+    display: block;/**显示元素*/
+}
+.allpay{
+	position:relative;
+	height:80px;
+	background: #ccc;
+}
+.allpay .section1{
+	position: absolute;
+	left:20px;
+	top:10px;
+	font-size: 18px;
+}
+.allpay .section2{
+	position: absolute;
+	right:150px;
+	top:10px;
+	font-size: 18px;
+	color: #c81523;
+}
+.allpay button {
+	position: absolute;
+	right:0;
+	width: 120px;
+    height: 80px;
+    background-color: #c81523;
+    color: white;
+}

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.nav{
+    overflow: hidden;/*清除nav多出的高度*/
+}
+.sk{
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+.sk_list{
+    float: left;
+}
+.sk_list ul li{
+    float: left;
+}
+.sk_list ul li a{
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_list ul li a:hover{
+	color:  #c81523;
+}
+.sk_container{
+    height: 1500px;
+    margin-bottom: 50px;
+}
+
+.sk_bd ul li{
+    float: left;
+    margin-right: 13px;
+    overflow: hidden;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li h3{
+	text-align: center;
+	font-size: 20px;
+	color: #red;
+}
+.sk_bd ul li p{
+	font-size: 15px;
+	color: #ccc;
+}
+.sk_bd ul li:nth-child(4n){
+    margin-right: 0;
+}
+.sk_bd ul li:hover{
+    border: 1px solid #c81523;
+}
+.tab{
+	margin-bottom: 100px;
+	margin-left: 500px;
+}
+.tab button{
+	height: 50px;
+	width: 50px;
+	background-color: #c81523;
+}
+.tab button a{
+	color:white;
+}

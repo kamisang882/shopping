@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@font-face {
+font-family: 'icomoon';
+src:  url('../fonts/icomoon.eot?tomleg');
+src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+url('../fonts/icomoon.woff?tomleg') format('woff'),
+url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+font-weight: normal;
+font-style: normal;
+font-display: block;
+  }
+.show{
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.images{
+    float: left;
+}
+.information{
+    float: left;
+}
+.detales{
+    width: 700px;
+    margin-left: 50px;
+}  
+.detales h1{
+    margin-left: 220px;
+    font-size: 30px;
+}
+.detales h2{
+    font-size: 25px;
+    padding-top: 20px;
+}
+.detales textarea{
+    width: 600px;
+    resize: none;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+}
+.detales p{
+    font-size: 15px;
+    padding-top: 15px;
+}
+.detales .price{
+    font-size: 40px;
+    color: tomato;
+}
+
+.show .information .car{
+	width:10px;
+	display:inline;
+	color: red;
+	font-size: 20px;
+}
+.car::before{
+	content:'\e93a';
+	font-family: 'icomoon';
+	color: #c81523;
+	font-size: 35px;
+}
+
+.car2 button{
+	 width: 100px;
+     height: 50px;
+     margin-left:30px;
+     background-color: Tomato;
+     color: white;
+}
+.bnt{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 55px;
+    width: 600px;
+
+}
+.bnt1,.bnt2,.bnt3{
+    width: 100px;
+    height: 50px;
+    margin-left:20px;
+    background-color: #c81523;
+    color: white;
+}
+

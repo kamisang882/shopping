@@ -1,0 +1,79 @@
+
+.nav{
+    height: 70px;
+    background-color: #c81523;;
+}
+.log{
+	margin-left: 0px
+}
+ .box11{
+            width: 80px;
+            height: 80px;
+            margin: 0 auto;
+            margin-top: 10px
+        }
+        .box22{
+            width: 160px;
+            height: 80px;
+          
+            transition: 0.5s;
+        }
+        .box22 .div11{
+            float: left;
+            width: 80px;
+            height: 80px;
+        }
+        .box22 .div11::after{
+            font-family: 'icomoon';
+            content: '\e909';
+            color: white;
+            font-size: 70px;
+        }
+        .box22 .div11 a{
+            text-decoration: none;
+        }
+        .box22 .div22{
+            float: left;
+            width: 80px;
+            height: 80px;
+        }
+        .box22 .div22::after{
+            font-family: 'icomoon';
+            content: '\e926';
+            color: white;
+            font-size: 70px;
+        }
+.box{
+    width: 600px;
+    height: 600px;
+    font-size: 20px;
+    color: #c81523;
+}
+
+.box input,select{
+    height: 30px;
+    width: 300px;
+    color: #c81523;
+    font-size: 20px;
+    border: 1px solid;
+    outline: none;
+    margin-left: 10px;
+}
+.box textarea{
+    margin-left: 95px;
+    margin-top: 10px;
+    width: 300px;
+    resize: none;
+    border: 1px solid #c81523;
+    outline: none;
+}
+
+.box .sub{
+    margin-left: 95px;
+    color: white;
+    background-color: #c81523;
+}
+.box .fil{
+    border: 0;
+    width: 300px;
+}
